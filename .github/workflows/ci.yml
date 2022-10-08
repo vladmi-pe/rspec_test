@@ -17,6 +17,6 @@ jobs:
       - name: Set up ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: ${{ matrix.os }}
+          ruby-version: ${{ matrix.ruby }}
           bundle-cache: true
-      - run: rspec
+      - run: bundle exec rake spec
