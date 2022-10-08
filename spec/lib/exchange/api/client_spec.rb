@@ -34,6 +34,6 @@ RSpec.describe Exchange::Api::Client do
   end
 
   specify '#post_info' do
-
+    # TODO
   end
 end
